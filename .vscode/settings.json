@@ -1,0 +1,12 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "firestorerules.usePrettierFormatter": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": false,
+    "prettier.tabWidth": 4,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "npm-scripts.showStartNotification": false,
+    "files.autoSave": "afterDelay"
+}
