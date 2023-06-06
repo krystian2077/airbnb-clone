@@ -8,7 +8,7 @@
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
   "npm-scripts.showStartNotification": false,
-  "files.autoSave": "onWindowChange",
+  "files.autoSave": "onFocusChange",
   "editor.quickSuggestionsDelay": 1,
   "editor.suggest.snippetsPreventQuickSuggestions": true,
   "workbench.editor.enablePreview": false,
@@ -16,5 +16,6 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.smoothScrolling": true,
   "editor.minimap.autohide": true,
-  "editor.linkedEditing": true
+  "editor.linkedEditing": true,
+  "editor.tabSize": 2
 }
