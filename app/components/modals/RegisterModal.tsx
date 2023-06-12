@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import axios from "axios";
-import { AiFillGithub } from "react-icons/ai";
-import { FcGoogle } from "react-icons/fc";
-import { useState, useCallback } from "react";
-import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
-import { toast } from "react-hot-toast";
-import useRegisterModal from "@/app/hooks/useRegisterModal";
+import axios from 'axios';
+import { AiFillGithub } from 'react-icons/ai';
+import { FcGoogle } from 'react-icons/fc';
+import { useState, useCallback } from 'react';
+import { FieldValues, SubmitHandler, useForm } from 'react-hook-form';
+import { toast } from 'react-hot-toast';
+import useRegisterModal from '@/app/hooks/useRegisterModal';
 import useLoginModal from '@/app/hooks/useLoginModal';
 import Modal from './Modal';
 import Heading from '../Heading';
@@ -37,7 +37,9 @@ const RegisterModal = () => {
     axios
       .post('/api/register', data)
       .then(() => {
+        toast.success('Success!');
         registerModal.onClose();
+        loginModal.onOpen();
       })
       .catch((erorr) => {
         toast.error('Something went wrong');
@@ -104,7 +106,8 @@ const RegisterModal = () => {
           <div>Already have an account?</div>
           <div
             className='cursor-pointer text-neutral-800 hover:underline'
-            onClick={toggle}>
+            onClick={toggle}
+          >
             Log in
           </div>
         </div>
