@@ -6,8 +6,8 @@
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
  <img src="img/start.png" alt="Start" style="margin-bottom: 50px">
- <img src="img/start2.png" alt="Start" style="margin-bottom: 50px">
- <img src="img/start3.png" alt="Start" style="margin-bottom: 50px">
+ <img src="img/start2.png" alt="Start" style="margin-bottom: 100px">
+
 </div>
 
 # 🚩 Table of Contents
