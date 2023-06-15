@@ -1,8 +1,8 @@
 <br />
 <div align="center">
-  <h1 style="margin-bottom: 50px">Promptopia App </h1>
+  <h1 style="margin-bottom: 50px">Airbnb Clone</h1>
 
-[![forthebadge](http://forthebadge.com/images/badges/made-with-javascript.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/made-with-typecript.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
  <img src="img/start.png" alt="Start" style="margin-bottom: 50px">
@@ -12,30 +12,38 @@
 
 - [🚩 Table of Contents](#-table-of-contents)
   - [🚀 Live Demo](#-live-demo)
-  - [✨ About of Project](#-about-of-project)
   - [🔭 Features](#-features)
   - [📦 Built With](#-built-with)
   - [🌏 Getting Started](#-getting-started)
     - [Prerequisites](#prerequisites)
     - [🔧 Installation](#-installation)
-  - [🐾 Roadmap](#-roadmap)
   - [📞 Contact](#-contact)
 
 ## 🚀 Live Demo
 
 Link: https://next-promptopia-ewqsy0382-krystian2077.vercel.app/
 
-## ✨ About of Project
-
-Promptopia App is a project summarizing my knowledge about Next.js version 13.4. This project is my first experience with Next.js. In my opinion it is a powerful, fun and effective tool for building web applications.
-
 ## 🔭 Features
 
-- Next 13.3 and React
+- Next 13.4 and React
 - Full Responsive
-- Tailwind Styling
-- NextAuth
-- Google Provider
+- Tailwind design and animations
+- Credential authentication
+- Google authentication
+- Github authentication
+- Client form validation and handling using react-hook-form
+- Server error handling using react-toast
+- Calendars with react-date-range
+- Page loading state
+- Page empty state
+- Booking / Reservation system
+- Guest reservation cancellation
+- Owner reservation cancellation
+- Creation and deletion of properties
+- Pricing calculation
+- Advanced search algorithm by category, date range, map location, number of guests, - rooms and bathrooms
+- Favorites system
+- Shareable URL filters
 - Search for tags, username and prompt content
 - Dynamic and nested routes
 - Profile component with edit/delete your post
@@ -45,7 +53,7 @@ Promptopia App is a project summarizing my knowledge about Next.js version 13.4.
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=javascript,next,react,tailwind,mongodb" />
+    <img src="https://skillicons.dev/icons?i=typescript,next,react,tailwind,mongodb" />
   </a>
 </p>
 
@@ -99,11 +107,6 @@ Install the latest version of npm in your runtime.
     ```sh
     npm run dev
     ```
-
-## 🐾 Roadmap
-
-- Add chat messenger
-- Add ability to add a movie to prompt
 
 <!-- CONTACT -->
 
