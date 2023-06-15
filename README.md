@@ -23,7 +23,7 @@
 
 ## 🚀 Live Demo
 
-Link: https://next-promptopia-ewqsy0382-krystian2077.vercel.app/
+Link: https://airbnb-clone-dusky-zeta.vercel.app/
 
 ## 🔭 Features
 
