@@ -1,34 +1,114 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<br />
+<div align="center">
+  <h1 style="margin-bottom: 50px">Promptopia App </h1>
 
-## Getting Started
+[![forthebadge](http://forthebadge.com/images/badges/made-with-javascript.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
-First, run the development server:
+ <img src="img/start.png" alt="Start" style="margin-bottom: 50px">
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+# 🚩 Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [🚩 Table of Contents](#-table-of-contents)
+  - [🚀 Live Demo](#-live-demo)
+  - [✨ About of Project](#-about-of-project)
+  - [🔭 Features](#-features)
+  - [📦 Built With](#-built-with)
+  - [🌏 Getting Started](#-getting-started)
+    - [Prerequisites](#prerequisites)
+    - [🔧 Installation](#-installation)
+  - [🐾 Roadmap](#-roadmap)
+  - [📞 Contact](#-contact)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Link: https://next-promptopia-ewqsy0382-krystian2077.vercel.app/
 
-## Learn More
+## ✨ About of Project
 
-To learn more about Next.js, take a look at the following resources:
+Promptopia App is a project summarizing my knowledge about Next.js version 13.4. This project is my first experience with Next.js. In my opinion it is a powerful, fun and effective tool for building web applications.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔭 Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Next 13.3 and React
+- Full Responsive
+- Tailwind Styling
+- NextAuth
+- Google Provider
+- Search for tags, username and prompt content
+- Dynamic and nested routes
+- Profile component with edit/delete your post
+- Viewing other people's profiles
 
-## Deploy on Vercel
+## 📦 Built With
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=javascript,next,react,tailwind,mongodb" />
+  </a>
+</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🌏 Getting Started
+
+To run this project, install it locally using npm.
+
+### Prerequisites
+
+Install the latest version of npm in your runtime.
+
+- npm
+
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### 🔧 Installation
+
+1.  Clone the repo
+
+    ```sh
+    git clone https://github.com/krystian2077/airbnb-clone
+    ```
+
+2.  Install NPM packages
+
+    ```sh
+    npm install
+    ```
+
+3.  Setup .env file
+
+    ```sh
+    DATABASE_URL=
+    GOOGLE_CLIENT_ID=
+    GOOGLE_CLIENT_SECRET=
+    GITHUB_ID=
+    GITHUB_SECRET=
+    NEXTAUTH_SECRET=
+    ```
+
+4.  Setup Prisma
+
+    ```sh
+    npx prisma db push
+    ```
+
+5.  Run npm script
+
+    ```sh
+    npm run dev
+    ```
+
+## 🐾 Roadmap
+
+- Add chat messenger
+- Add ability to add a movie to prompt
+
+<!-- CONTACT -->
+
+## 📞 Contact
+
+Email: krystian.potaczek07@gmail.com
+
+My phone number: 788-986-074
