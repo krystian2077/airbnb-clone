@@ -7,6 +7,7 @@
 
  <img src="img/start.png" alt="Start" style="margin-bottom: 50px">
  <img src="img/start2.png" alt="Start" style="margin-bottom: 50px">
+ <img src="img/start3.png" alt="Start" style="margin-bottom: 50px">
 </div>
 
 # 🚩 Table of Contents
