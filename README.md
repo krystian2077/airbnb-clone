@@ -2,7 +2,7 @@
 <div align="center">
   <h1 style="margin-bottom: 50px">Airbnb Clone</h1>
 
-[![forthebadge](http://forthebadge.com/images/badges/made-with-typecript.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/made-with-typescript.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
  <img src="img/start.png" alt="Start" style="margin-bottom: 50px">
